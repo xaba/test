@@ -3627,7 +3627,7 @@ value   = 10
 reqs    =
     { "type", "name", "range"
       "Building", "Trade Company", "Player"
-      "Building", "Marco Polo's Embassy", "City"
+      "Building", "Marco Polo's Embassy", "Player"
       "OutputType", "Trade", "Local"
     }
 
