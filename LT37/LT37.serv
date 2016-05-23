@@ -3,19 +3,19 @@ rulesetdir LT37
 # map
 set alltemperate=disabled
 set barbarians=disabled
-set generator="FRACTAL"
+set generator="ISLAND"
 set huts=0
-set landmass=30
+set landmass=40
 set mapsize="PLAYER"
 set separatepoles=disabled
 set specials=250
-set startpos="ALL"
-set steepness=10
+set startpos="VARIABLE"
+set steepness=15
 set temperature=50
-set tilesperplayer=740
+set tilesperplayer=400
 set topology="WRAPX|WRAPY"
-set wetness=55
-set alltemperate=disabled
+set wetness=60
+set alltemperate=enabled
 #set revealmap=START  #uncomment this for revealing the map for test games
 
 # general rules
@@ -28,7 +28,7 @@ set rapturedelay=3
 set restrictinfra=enabled
 set revolen=2
 set spacerace=enabled
-set startunits=ccccccwwwwwx
+set startunits=ccccwwx
 set techlevel=0
 set unreachableprotects=disabled
 set killunhomed=0
@@ -42,7 +42,7 @@ set occupychance=0
 set diplchance=50
 set diplcost=10
 set diplomacy=HUMAN
-set sciencebox=90
+set sciencebox=80
 set techlost_donor=0
 set techlost_recv=90
 set techpenalty=10
@@ -69,5 +69,4 @@ metamessage "LT37 | More info: http://longturn.org/game/LT37/"
 metapatches longturn
 
 
-syncturn
 start
